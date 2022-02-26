@@ -81,3 +81,7 @@ p {
 .socials {
   padding-bottom: 200px;
 }
+
+.social {
+  margin: 10px;
+}
