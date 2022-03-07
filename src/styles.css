@@ -1,5 +1,6 @@
 * {
   font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
 }
 
 section {
@@ -22,7 +23,6 @@ footer {
 nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
 }
 
 ul {
@@ -31,6 +31,7 @@ ul {
   width: 575px;
   justify-content: space-around;
   font-size: 30px;
+  margin-top: 40px;
 }
 
 li {
@@ -46,6 +47,11 @@ li {
 
 p {
   margin: 0;
+  font-size: 30px;
+}
+
+.about-me-description {
+  margin: 60px;
   font-size: 30px;
 }
 
@@ -86,6 +92,7 @@ h2 {
 
 .socials {
   padding-bottom: 250px;
+  margin-right: 35px;
 }
 
 .social {
