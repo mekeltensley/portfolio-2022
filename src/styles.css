@@ -112,6 +112,7 @@ h2 {
   text-align: center;
   padding: 80px;
   margin-bottom: 100px;
+  background-color: #ebd2be;
 }
 
 .headshot {
@@ -127,7 +128,10 @@ h2 {
 .project-card {
   width: 325px;
   height: 400px;
-  box-shadow: #e5a4cb 5px 5px 20px;
+  box-shadow: #e5a4cb 5px 5px 5px;
+  background-color: #ffe8d4;
+  border-radius: 25px;
+  margin-right: 15px;
 }
 
 .project-container {
@@ -149,4 +153,10 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #7f055f;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffe8d4;
 }
