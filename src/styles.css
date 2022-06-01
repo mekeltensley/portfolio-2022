@@ -48,6 +48,7 @@ li {
 p {
   margin: 0;
   font-size: 30px;
+  padding: 3px;
 }
 
 .about-me-description {
@@ -110,6 +111,7 @@ h2 {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  margin-bottom: 100px;
 }
 
 .headshot {
@@ -123,12 +125,28 @@ h2 {
 }
 
 .project-card {
-  width: 200px;
-  height: 500px;
+  width: 325px;
+  height: 400px;
   box-shadow: #e5a4cb 5px 5px 20px;
 }
 
 .project-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 55px;
+  padding: 15px;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.project-name {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
 }
