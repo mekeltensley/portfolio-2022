@@ -29,13 +29,14 @@ ul {
   display: flex;
   list-style-type: none;
   width: 575px;
-  justify-content: space-around;
+  justify-content: start;
   font-size: 30px;
   margin-top: 40px;
 }
 
-li {
+ul > li {
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .my-name {
@@ -46,7 +47,7 @@ li {
 }
 
 p {
-  margin: 0;
+  margin-bottom: 10px;
   font-size: 30px;
   padding: 3px;
 }
@@ -66,14 +67,18 @@ h2 {
 }
 
 .button {
-  width: 235px;
+  width: 255px;
   height: 55px;
   background-color: #7f055f;
   border-radius: 30px;
   text-align: center;
   font-size: 30px;
   padding-top: 11px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 11px;
   margin-top: 20px;
+  color: #ffe8d4;
 }
 
 .button:hover {
